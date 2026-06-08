@@ -63,3 +63,29 @@ UF1: Unweighted F1-score;
 UAR: Unweighted Average Recall.
 
 These metrics are used because the composite 3DB dataset is class-imbalanced.
+
+Computational Cost
+
+The computational efficiency can be evaluated using:
+
+python train.py --measure_efficiency
+
+The reported metrics include:
+
+model parameters;
+FLOPs;
+training time;
+inference time per sample;
+GPU memory consumption.
+Code Availability and Citation
+
+This repository is released to support reproducibility of the manuscript submitted to The Visual Computer.
+
+If you use this code or protocol, please cite the corresponding paper once it is published.
+
+@article{zhao2025msctnet,
+  title={Motion-Guided Multi-Scale Regional-Context Fusion for Micro-Expression Recognition},
+  author={Zhao, Yixin and Ren, Jiahui and Fu, Xiuli and He, Jingjie},
+  journal={The Visual Computer},
+  year={2025}
+}
