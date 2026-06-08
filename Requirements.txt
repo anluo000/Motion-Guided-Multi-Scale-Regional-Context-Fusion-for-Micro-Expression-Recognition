@@ -1,0 +1,9 @@
+python >= 3.8
+ torch >= 1.10 
+torchvision 
+numpy 
+opencv-python
+ pandas 
+scikit-learn 
+einops 
+facenet-pytorch
